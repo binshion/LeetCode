@@ -1,7 +1,10 @@
 import java.util.Arrays;
 import java.util.LinkedList;
 
-
+/**
+ * 使用动态规划求解
+ * 纸牌翻面排序问题
+ */
 public class RevealCardsInIncreasingOrder_950 {
     static class Solution {
         public int[] deckRevealedIncreasing(int[] deck) {
