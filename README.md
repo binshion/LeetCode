@@ -7,6 +7,7 @@ LeetCode solution
 * SortArrayByParity_905
 * FlippingAnImage_832
 * SumOfEvenNumbersAfterQueries_985
+* ArrayPartion1_561
 
 ## Medium
 * RevealCardsInIncreasingOrder_950
