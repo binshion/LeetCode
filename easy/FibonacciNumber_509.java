@@ -2,7 +2,7 @@ import com.sun.org.apache.regexp.internal.RE;
 
 /**
  * 1.常规斐波那契序列表达式，递归调用
- * 2.动态递归，数组存放历史数据，减少重复计算
+ * 2.动态规划，数组存放历史数据，减少重复计算
  * 3.临时变量循环使用，优化空间复杂度
  */
 public class FibonacciNumber_509 {
