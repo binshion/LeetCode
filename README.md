@@ -10,6 +10,7 @@ LeetCode solution
 * ArrayPartion1_561
 * SortArrayByParity2_922
 * FibonacciNumber_509
+* TransposeMatrix_867
 
 ## Medium
 * RevealCardsInIncreasingOrder_950
