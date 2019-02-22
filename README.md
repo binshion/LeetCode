@@ -14,3 +14,4 @@ LeetCode solution
 
 ## Medium
 * RevealCardsInIncreasingOrder_950
+* PancakeSorting_969
