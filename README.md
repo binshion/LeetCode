@@ -11,6 +11,7 @@ LeetCode solution
 * SortArrayByParity2_922
 * FibonacciNumber_509
 * TransposeMatrix_867
+* ToeplitzMatrix_766
 
 ## Medium
 * RevealCardsInIncreasingOrder_950
