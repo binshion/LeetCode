@@ -12,6 +12,7 @@ LeetCode solution
 * FibonacciNumber_509
 * TransposeMatrix_867
 * ToeplitzMatrix_766
+* ReshapeTheMatrix_566
 
 ## Medium
 * RevealCardsInIncreasingOrder_950
