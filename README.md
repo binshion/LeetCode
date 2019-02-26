@@ -13,6 +13,7 @@ LeetCode solution
 * TransposeMatrix_867
 * ToeplitzMatrix_766
 * ReshapeTheMatrix_566
+* LargestPerimeterTriangle_976
 
 ## Medium
 * RevealCardsInIncreasingOrder_950
