@@ -19,3 +19,4 @@ LeetCode solution
 * RevealCardsInIncreasingOrder_950
 * PancakeSorting_969
 * FindAllDuplicatesInAnArray_442
+* MaxAreaOfIsland_695
