@@ -14,6 +14,7 @@ LeetCode solution
 * ToeplitzMatrix_766
 * ReshapeTheMatrix_566
 * LargestPerimeterTriangle_976
+* FairCandySwap_888
 
 ## Medium
 * RevealCardsInIncreasingOrder_950
