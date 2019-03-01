@@ -15,6 +15,7 @@ LeetCode solution
 * ReshapeTheMatrix_566
 * LargestPerimeterTriangle_976
 * FairCandySwap_888
+* MonotonicArray_896
 
 ## Medium
 * RevealCardsInIncreasingOrder_950
