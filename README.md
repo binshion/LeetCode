@@ -16,6 +16,7 @@ LeetCode solution
 * LargestPerimeterTriangle_976
 * FairCandySwap_888
 * MonotonicArray_896
+* MaxConsecutiveOnes_485
 
 ## Medium
 * RevealCardsInIncreasingOrder_950
