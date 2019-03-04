@@ -16,10 +16,12 @@ LeetCode solution
 * LargestPerimeterTriangle_976
 * FairCandySwap_888
 * MonotonicArray_896
+* MaxConsecutiveOnes_485
 
 ## Medium
 * RevealCardsInIncreasingOrder_950
 * PancakeSorting_969
 * FindAllDuplicatesInAnArray_442
 * MaxAreaOfIsland_695
+* ProductOfArrayExceptSelf_238
 * MoveZeroes_283
