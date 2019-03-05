@@ -17,6 +17,7 @@ LeetCode solution
 * FairCandySwap_888
 * MonotonicArray_896
 * MaxConsecutiveOnes_485
+* FindAllNumbersDisappearedInAnArray_448
 
 ## Medium
 * RevealCardsInIncreasingOrder_950
