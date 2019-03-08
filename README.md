@@ -18,6 +18,7 @@ LeetCode solution
 * MonotonicArray_896
 * MaxConsecutiveOnes_485
 * FindAllNumbersDisappearedInAnArray_448
+* MajorityElement_169
 
 ## Medium
 * RevealCardsInIncreasingOrder_950
