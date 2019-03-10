@@ -41,5 +41,4 @@ class Solution_78 {
         }
         return lists;
     }
-
 }
