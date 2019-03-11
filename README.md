@@ -30,4 +30,4 @@ LeetCode solution
 * TeemoAttacking_495
 * BeautifulArrangementII_667
 * Subsets_78
-* MaxChunksToMakeSorted_769
+* MaxChunksToMakeSorted_769 
