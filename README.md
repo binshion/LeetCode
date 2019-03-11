@@ -28,4 +28,6 @@ LeetCode solution
 * ProductOfArrayExceptSelf_238
 * MoveZeroes_283
 * TeemoAttacking_495
+* BeautifulArrangementII_667
+* Subsets_78
 * MaxChunksToMakeSorted_769
