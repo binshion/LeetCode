@@ -19,6 +19,7 @@ LeetCode solution
 * MaxConsecutiveOnes_485
 * FindAllNumbersDisappearedInAnArray_448
 * MajorityElement_169
+* BestTimetoBuyandSellStockII_122
 
 ## Medium
 * RevealCardsInIncreasingOrder_950
