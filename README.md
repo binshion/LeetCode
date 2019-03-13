@@ -20,6 +20,7 @@ LeetCode solution
 * FindAllNumbersDisappearedInAnArray_448
 * MajorityElement_169
 * BestTimetoBuyandSellStockII_122
+* ContainsDuplicate_217
 
 ## Medium
 * RevealCardsInIncreasingOrder_950
