@@ -22,6 +22,7 @@ LeetCode solution
 * BestTimetoBuyandSellStockII_122
 * ContainsDuplicate_217
 * TwoSumII_167
+* DegreeOfAnArray_697
 
 ## Medium
 * RevealCardsInIncreasingOrder_950
