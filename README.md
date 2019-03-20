@@ -23,6 +23,7 @@ LeetCode solution
 * ContainsDuplicate_217
 * TwoSumII_167
 * DegreeOfAnArray_697
+* OnebitandTwobitCharacters_717
 
 ## Medium
 * RevealCardsInIncreasingOrder_950
