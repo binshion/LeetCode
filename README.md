@@ -40,3 +40,4 @@ LeetCode solution
 * CombinationSumIII_216
 * BestTimetoBuyandSellStockwithTransactionFee_714
 * RLEIterator_900
+* FindTheDuplicateNumber_287
