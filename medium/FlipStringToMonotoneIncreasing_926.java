@@ -5,10 +5,13 @@ public class FlipStringToMonotoneIncreasing_926 {
 //        System.out.println(solution.minFlipsMonoIncr("010110"));
 //        System.out.println(solution.minFlipsMonoIncr("00011000"));
 //        System.out.println(solution.minFlipsMonoIncr("00110111"));
-        System.out.println(solution.minFlipsMonoIncr("011010001101001"));
+//        System.out.println(solution.minFlipsMonoIncr("011010001101001"));
+        System.out.println(solution.minFlipsMonoIncr("10011111110010111011"));
+
     }
 }
-
+//"100111111100101110   11"
+//11111110010
 /**
  * 大致思路：
  * 找到第一次出现1的位置，然后找到后面的数据出现1和出现0的个数：
@@ -18,17 +21,30 @@ public class FlipStringToMonotoneIncreasing_926 {
  */
 class Solution_926 {
     public int minFlipsMonoIncr(String S) {
-        int index = S.indexOf("1");
+        int first = 0;
+        int last = S.length() - 1;
+        while (first <= last) {
+            if (S.charAt(first) == '0') {
+                first++;
+            }
+            if (S.charAt(last) == '1') {
+                last--;
+            }
 
-        //1出现的位置在最后一位或没有1，则不需要翻转，原String就是单调递增
-        if (index == S.length() - 1 || index < 0) {
-            return 0;
+            if (first >= S.length() || last < 0) {
+                return 0;
+            }
+
+            if (S.charAt(first) == '1' && S.charAt(last) == '0') {
+                break;
+            }
         }
 
-        //1之后的子串
+        S = S.substring(first, last + 1);
+
         int sizeOf0 = 0;
         int sizeOf1 = 0;
-        for (int i = index + 1; i < S.length(); i++) {
+        for (int i = 0; i < S.length(); i++) {
             if (S.charAt(i) == '1') {
                 sizeOf1++;
             } else {
@@ -36,42 +52,23 @@ class Solution_926 {
             }
         }
 
-        if (sizeOf0 == sizeOf1) {
-            //可以假定首次出现的1直接设为0，然后比较后面的数据
-            return getJiaShe(1, S, index);
-        } else if (sizeOf1 > sizeOf0) {
-            return sizeOf0;
-        } else {
-            return Math.min(sizeOf0, sizeOf1 + 1);
-        }
+        int min = Math.min(sizeOf0, sizeOf1);
+
+        //头1变0,尾0变 1 变化2次，再重复
+        return 2 + minFlipsMonoIncr("0" + S.substring(1, S.length() - 1) + "1");
     }
 
-    /**
-     *
-     * @param jiasheSize 假定由1变0 的次数
-     * @param s
-     * @param index 上次出现1的位置
-     * @return
-     */
-    private int getJiaShe(int jiasheSize, String s, int index) {
-        int nextIndex = s.indexOf("1", index + 1);
+    public int minFlipsMonoIncr2(String S) {
+        int N = S.length();
+        int[] P = new int[N + 1];
+        for (int i = 0; i < N; ++i)
+            P[i+1] = P[i] + (S.charAt(i) == '1' ? 1 : 0);
 
-        int sizeOf0 = 0;
-        int sizeOf1 = 0;
-        for (int i = nextIndex + 1; i < s.length(); i++) {
-            if (s.charAt(i) == '1') {
-                sizeOf1++;
-            } else {
-                sizeOf0++;
-            }
+        int ans = Integer.MAX_VALUE;
+        for (int j = 0; j <= N; ++j) {
+            ans = Math.min(ans, P[j] + N-j-(P[N]-P[j]));
         }
 
-        if (sizeOf1 == sizeOf0) {
-            return getJiaShe(jiasheSize + 1, s, nextIndex);
-        } else if (sizeOf0 + sizeOf1 == 1) {
-                return jiasheSize;
-        } else {
-            return Math.min(sizeOf1 + jiasheSize, sizeOf0);
-        }
+        return ans;
     }
 }
