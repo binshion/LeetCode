@@ -24,6 +24,7 @@ LeetCode solution
 * TwoSumII_167
 * DegreeOfAnArray_697
 * OnebitandTwobitCharacters_717
+* ImageSmoother_661
 
 ## Medium
 * RevealCardsInIncreasingOrder_950
