@@ -26,6 +26,7 @@ LeetCode solution
 * OnebitandTwobitCharacters_717
 * ImageSmoother_661
 * MissingNumber_268
+* PositionsOfLargeGroups_830
 
 ## Medium
 * RevealCardsInIncreasingOrder_950
