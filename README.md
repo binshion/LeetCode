@@ -25,6 +25,7 @@ LeetCode solution
 * DegreeOfAnArray_697
 * OnebitandTwobitCharacters_717
 * ImageSmoother_661
+* MissingNumber_268
 
 ## Medium
 * RevealCardsInIncreasingOrder_950
