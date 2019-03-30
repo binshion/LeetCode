@@ -27,6 +27,7 @@ LeetCode solution
 * ImageSmoother_661
 * MissingNumber_268
 * PositionsOfLargeGroups_830
+* BestTimeToBuyAndSellStock_121
 
 ## Medium
 * RevealCardsInIncreasingOrder_950
