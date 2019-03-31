@@ -28,6 +28,7 @@ LeetCode solution
 * MissingNumber_268
 * PositionsOfLargeGroups_830
 * BestTimeToBuyAndSellStock_121
+* MinCostClimbingStairs_746
 
 ## Medium
 * RevealCardsInIncreasingOrder_950
