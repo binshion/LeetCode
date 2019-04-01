@@ -51,3 +51,4 @@ LeetCode solution
 * CombinationSum_39
 * UniquePaths_62
 * MyCalendarI_729
+* MinimumPathSum_64
