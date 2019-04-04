@@ -54,3 +54,4 @@ LeetCode solution
 * MinimumPathSum_64
 * LengthOfLongestFibonacciSubsequence_873
 * SpiralMatrixII_59
+* MinimumDominoRotationsForEqualRow_1007
