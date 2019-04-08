@@ -29,6 +29,7 @@ LeetCode solution
 * PositionsOfLargeGroups_830
 * BestTimeToBuyAndSellStock_121
 * MinCostClimbingStairs_746
+* MaximumProductOfThreeNumbers_628
 
 ## Medium
 * RevealCardsInIncreasingOrder_950
